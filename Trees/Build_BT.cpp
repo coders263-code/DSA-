@@ -27,5 +27,5 @@ int main(){
     Node* root=buildtree(preorder);
     cout<<root->data<<endl;
     cout<<root->left->data<<endl;
-    cout<<root->right->data<<endl;
+    cout<<"Right Node root:"<<root->right->data<<endl;
 }
