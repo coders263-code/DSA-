@@ -31,7 +31,7 @@ void preOrder(Node* root){
     preOrder(root->right);
 }
 int main(){
-    vector<int>preorder={1,2,-1,-1,3,4,-1,-1,5,-1,-1};
+    vector<int>preorder={10,9,-1,-1,3,4,-1,-1,5,-1,-1};
     Node* root=buildtree(preorder);
     preOrder(root);
     cout<<endl;
