@@ -33,7 +33,7 @@ int height(Node* root){
     return max(leftheight,rightheight)+1;
 }
 int main(){
-    vector<int>preorder={1,2,-1,-1,3,4,-1,-1,5,-1,-1};
+    vector<int>preorder={1,2,-1,-1,3,9,-1,-1,5,-1,-1};
     Node* root=buildtree(preorder);
     cout<<"height of tree:"<<height(root);
 
