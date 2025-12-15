@@ -24,8 +24,8 @@ int BinarySearch(int target,int arr[],int n){
 int main(){
     int target=9;
     int n=6;
-    int arr[]={5,6,2,1,9,8};
-        sort(arr, arr + n); // ✅ Sort array before binary search
+    int arr[]={5,6,2,7,9,8};
+        sort(arr, arr + n); //  Sort array before binary search
 
     cout << "Sorted array: ";
     for(int i=0; i<n; i++)
