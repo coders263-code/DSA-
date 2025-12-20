@@ -140,7 +140,7 @@ int main() {
     list l;
 
     l.insert_at_start(10);
-    l.insert_at_start(20);
+    l.insert_at_start(22);
     l.insert_at_end(30);
     l.insert_at_any_location(40, 2);
     l.insert_at_any_location(50, 5);
