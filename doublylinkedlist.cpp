@@ -74,7 +74,7 @@ int main(){
     doubly dl;
     dl.push_at_front(6);
     dl.push_at_front(9);
-    dl.push_at_back(10);
+    dl.push_at_back(90);
     dl.pop_at_front();
     dl.printvalues();
     return 0;
