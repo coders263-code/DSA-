@@ -17,7 +17,7 @@ void printarray(int arr[],int n){
 }
 int main(){
     int n=5;
-    int arr[]={5,6,2,1,9};
+    int arr[]={5,6,2,10,9};
     sorting(arr,n);
     printarray(arr,n);
     return 0;
