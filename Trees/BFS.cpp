@@ -75,7 +75,7 @@ int main() {
     bt.insert(10);
     bt.insert(20);
     bt.insert(30);
-    bt.insert(40);
+    bt.insert(35);
     bt.insert(50);
 
     bt.BFS();
