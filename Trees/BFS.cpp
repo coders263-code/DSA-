@@ -72,7 +72,7 @@ public:
 int main() {
     BinaryTree bt;
 
-    bt.insert(10);
+    bt.insert(5);
     bt.insert(20);
     bt.insert(30);
     bt.insert(35);
